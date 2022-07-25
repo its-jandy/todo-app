@@ -89,12 +89,13 @@ form.addEventListener('submit', e => {
 	clearTasksList();
 	renderTasks();
 	updateLocalStorage();
+	addButton.disabled = true;
 	form.reset();
 });
 
 // Input emptiness check
 input.addEventListener('input', () => {
-	if (!!input.value.length) {
+	if (input.value.length) {
 		addButton.disabled = false;
 	} else {
 		addButton.disabled = true;

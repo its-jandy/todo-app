@@ -33,6 +33,15 @@ h2 {
 	color: rgb(63, 63, 63);
 }
 
+.btn-group {
+	margin-left: 15px;
+}
+
+.task-text {
+	word-break: break-all;
+	text-align: justify;
+}
+
 .done {
 	background-color: #d1e7dd;
 	color: #0f5132;
